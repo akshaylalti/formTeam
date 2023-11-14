@@ -1,0 +1,17 @@
+.genderFilters{
+  margin-top: 10px;
+  height: 20px;
+}
+.slect{
+  height: 3rem;
+  border-radius: 5px;
+}
+.filter {
+  margin-top: 2rem;
+display: flex;
+justify-content: right;
+  @media only screen and (max-width: 768px) {
+    margin-left: 0;
+    flex-direction: column;
+  }
+}
